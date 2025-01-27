@@ -23,7 +23,7 @@ export const mockRecipes: Recipe[] = [
       "Stresi azaltır",
       "Sindirime yardımcı olur"
     ],
-    image: "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80"
+    image: "/images/papatya-çayı.jpg"
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ export const mockRecipes: Recipe[] = [
       "Bulantıyı azaltır",
       "Bağışıklığı güçlendirir"
     ],
-    image: "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&q=80"
+    image: "/images/zencefil-çayı.jpg"
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const mockRecipes: Recipe[] = [
       "Bağışıklığı destekler",
       "Soğuk algınlığını hafifletir"
     ],
-    image: "https://images.unsplash.com/photo-1519666213635-66b8cd7178d5?auto=format&fit=crop&q=80"
+    image: "/images/nane-limon.jpg"
   },
   {
     id: 4,
@@ -95,7 +95,7 @@ export const mockRecipes: Recipe[] = [
       "Bağışıklığı destekler",
       "Kan şekerini düzenler"
     ],
-    image: "https://images.unsplash.com/photo-1604908177074-364ba34c1c29?auto=format&fit=crop&q=80"
+    image: "/images/elma-tarçın.jpg"
   },
   {
     id: 5,
@@ -117,7 +117,7 @@ export const mockRecipes: Recipe[] = [
       "Bağışıklığı güçlendirir",
       "Cildi yeniler"
     ],
-    image: "https://images.unsplash.com/photo-1568051243875-0b7b4b7d3f74?auto=format&fit=crop&q=80"
+    image: "/images/kuşburnu.jpg"
   },
   {
     id: 6,
@@ -138,7 +138,7 @@ export const mockRecipes: Recipe[] = [
       "Stresi azaltır",
       "Ağız sağlığını destekler"
     ],
-    image: "https://images.unsplash.com/photo-1588776814546-1b3f53fa4aaf?auto=format&fit=crop&q=80"
+    image: "/images/adaçayı.jpg"
   },
   {
     id: 7,
@@ -160,7 +160,7 @@ export const mockRecipes: Recipe[] = [
       "Bağışıklığı destekler",
       "Sakinleştirir"
     ],
-    image: "https://images.unsplash.com/photo-1513759565284-0f868d537ab2?auto=format&fit=crop&q=80"
+    image: "/images/ıhlamur.jpg"
   },
   {
     id: 8,
@@ -183,7 +183,7 @@ export const mockRecipes: Recipe[] = [
       "Vücudu rahatlatır",
       "Soğuk algınlığına iyi gelir"
     ],
-    image: "https://images.unsplash.com/photo-1589451845419-3f6f4dc482a7?auto=format&fit=crop&q=80"
+    image: "/images/tarçınlı-süt.jpg"
   },
   {
     id: 9,
@@ -204,7 +204,7 @@ export const mockRecipes: Recipe[] = [
       "Sindirim sistemini destekler",
       "C vitamini sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1583500172526-3a9a7f8d5a4b?auto=format&fit=crop&q=80"
+    image: "/images/limonlu-su.jpg"
   },
   {
     id: 10,
@@ -225,7 +225,7 @@ export const mockRecipes: Recipe[] = [
       "Gazı azaltır",
       "Stresi hafifletir"
     ],
-    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&q=80"
+    image: "/images/rezene.jpg"
   },
   {
     id: 11,
@@ -246,7 +246,7 @@ export const mockRecipes: Recipe[] = [
         "Uyku düzenini iyileştirir",
         "Rahatlama sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1620563208411-7ba05a7f90b0?auto=format&fit=crop&q=80"
+    image: "/images/lavanta.jpg"
 },
 {
     id: 12,
@@ -267,7 +267,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirim sistemini rahatlatır",
         "Vücudu toksinlerden arındırır"
     ],
-    image: "https://images.unsplash.com/photo-1556888336-6ba50c3c7077?auto=format&fit=crop&q=80"
+    image: "/images/karabaşotu.jpg"
 },
 {
     id: 13,
@@ -288,7 +288,7 @@ export const mockRecipes: Recipe[] = [
         "Uyku kalitesini artırır",
         "Zihinsel rahatlama sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1584824486539-53bb4646bdbc?auto=format&fit=crop&q=80"
+    image: "/images/melisa.jpg"
 },
 {
     id: 14,
@@ -309,7 +309,7 @@ export const mockRecipes: Recipe[] = [
         "Enerji seviyesini artırır",
         "Bağışıklığı destekler"
     ],
-    image: "https://images.unsplash.com/photo-1501196981128-20d6d2cd44d4?auto=format&fit=crop&q=80"
+    image: "/images/biberiye.jpg"
 },
 {
     id: 15,
@@ -330,7 +330,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini güçlendirir",
         "Stresi hafifletir"
     ],
-    image: "https://images.unsplash.com/photo-1579722493823-6b6847d29565?auto=format&fit=crop&q=80"
+    image: "/images/tarhun.jpg"
 },
 {
     id: 16,
@@ -351,7 +351,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini güçlendirir",
         "Enerji verir"
     ],
-    image: "https://images.unsplash.com/photo-1583935404419-17d9236f3c04?auto=format&fit=crop&q=80"
+    image: "/images/zerdeçal.jpg"
 },
 {
     id: 17,
@@ -372,7 +372,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklığı destekler",
         "C vitamini sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1506355683591-3d5a6df43b57?auto=format&fit=crop&q=80"
+    image: "/images/hibiskus.jpg"
 },
 {
     id: 18,
@@ -393,7 +393,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklığı güçlendirir",
         "Cilt sağlığını destekler"
     ],
-    image: "https://images.unsplash.com/photo-1605455655137-2cc116bbff15?auto=format&fit=crop&q=80"
+    image: "/images/ısırgan-otu.jpg"
 },
 {
     id: 19,
@@ -414,7 +414,7 @@ export const mockRecipes: Recipe[] = [
         "Rahatlama sağlar",
         "Sindirime yardımcı olur"
     ],
-    image: "https://images.unsplash.com/photo-1620572780991-30862f90c8c9?auto=format&fit=crop&q=80"
+    image: "/images/fesleğen.jpg"
 },
 {
     id: 20,
@@ -436,7 +436,7 @@ export const mockRecipes: Recipe[] = [
         "Vücudu arındırır",
         "Enerji verir"
     ],
-    image: "https://images.unsplash.com/photo-1513262599279-d8b0c77f1531?auto=format&fit=crop&q=80"
+    image: "/images/yeşil.jpg"
 },
 {
     id: 21,
@@ -459,7 +459,7 @@ export const mockRecipes: Recipe[] = [
         "C vitamini sağlar",
         "Soğuk algınlığını hafifletir"
     ],
-    image: "https://images.unsplash.com/photo-1550521912-0c8ca56f1050?auto=format&fit=crop&q=80"
+    image: "/images/zencefilli-limonata.jpg"
 },
 {
     id: 22,
@@ -482,7 +482,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirim sistemini rahatlatır",
         "Enerji sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1617884669789-9fa0b80513b5?auto=format&fit=crop&q=80"
+    image: "/images/elmalı-zencefil.jpg"
 },
 {
     id: 23,
@@ -504,7 +504,7 @@ export const mockRecipes: Recipe[] = [
         "Zihni sakinleştirir",
         "Enerji sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1572956431062-eec3fa394810?auto=format&fit=crop&q=80"
+    image: "/images/nane-fesleğen.jpg"
 },
 {
     id: 24,
@@ -525,7 +525,7 @@ export const mockRecipes: Recipe[] = [
         "Soğuk algınlığını hafifletir",
         "Bağışıklığı güçlendirir"
     ],
-    image: "https://images.unsplash.com/photo-1579783905605-264aad0ccfd9?auto=format&fit=crop&q=80"
+    image: "/images/defne-yaprağı.jpg"
 },
 {
     id: 25,
@@ -547,7 +547,7 @@ export const mockRecipes: Recipe[] = [
         "Stresi hafifletir",
         "Zihinsel rahatlama sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1589308078051-6db03c8d4a01?auto=format&fit=crop&q=80"
+    image: "/images/ballı-kakule.jpg"
 },
 {
     id: 26,
@@ -570,7 +570,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini destekler",
         "Antioksidan etkisi vardır"
     ],
-    image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&q=80"
+    image: "/images/zencefil-limon.jpg"
 },
 {
     id: 27,
@@ -592,7 +592,7 @@ export const mockRecipes: Recipe[] = [
         "Mideyi rahatlatır",
         "Sindirimi kolaylaştırır"
     ],
-    image: "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&q=80"
+    image: "/images/nane-rezene.jpg"
 },
 {
     id: 28,
@@ -615,7 +615,7 @@ export const mockRecipes: Recipe[] = [
         "Ağız içi enfeksiyonlarına karşı korur",
         "Antiseptik özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078059-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karanfil-adaçayı.jpg"
 },
 {
     id: 29,
@@ -638,7 +638,7 @@ export const mockRecipes: Recipe[] = [
         "Stresi azaltır",
         "Sinirleri yatıştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078058-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/papatya-lavanta.jpg"
 },
 {
     id: 30,
@@ -661,7 +661,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Metabolizmayı hızlandırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078057-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/tarçın-elma.jpg"
 },
 {
     id: 31,
@@ -684,7 +684,7 @@ export const mockRecipes: Recipe[] = [
         "Enfeksiyonlara karşı korur",
         "Antioksidan özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078056-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kuşburnu-hibiskus.jpg"
 },
 {
     id: 32,
@@ -707,7 +707,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Metabolizmayı hızlandırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078055-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zerdeçal.jpg"
 },
 {
     id: 33,
@@ -730,7 +730,7 @@ export const mockRecipes: Recipe[] = [
         "Boğaz ağrısını azaltır",
         "Antiseptik özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078054-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kekik-limon.jpg"
 },
 {
     id: 34,
@@ -753,7 +753,7 @@ export const mockRecipes: Recipe[] = [
         "Konsantrasyonu artırır",
         "Zihinsel berraklık sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1589308078053-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/biberiye-limon.jpg"
 },
 {
     id: 35,
@@ -776,7 +776,7 @@ export const mockRecipes: Recipe[] = [
         "Öksürüğü azaltır",
         "Boğazı yumuşatır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078052-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/ıhlamur-ayvayaprağı.jpg"
 },
 {
     id: 36,
@@ -798,7 +798,7 @@ export const mockRecipes: Recipe[] = [
         "Detoks etkisi vardır",
         "Sindirimi kolaylaştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078051-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karahindiba-kökü.jpg"
 },
 {
     id: 37,
@@ -819,7 +819,7 @@ export const mockRecipes: Recipe[] = [
         "Boğaz ağrısını azaltır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078050-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/meyan-koku.jpg"
 },
 {
     id: 38,
@@ -840,7 +840,7 @@ export const mockRecipes: Recipe[] = [
         "Rahatlama sağlar",
         "Sindirime yardımcı olur"
     ],
-    image: "https://images.unsplash.com/photo-1620572780991-30862f90c8c9?auto=format&fit=crop&q=80"
+    image: "/images/fesleğen.jpg"
 },
 {
     id: 39,
@@ -863,7 +863,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Nefesi tazeler"
     ],
-    image: "https://images.unsplash.com/photo-1589308078048-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karanfil-tarçın.jpg"
 },
 {
     id: 40,
@@ -886,7 +886,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078047-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zencefil-nane.jpg"
 },
 {
     id: 41,
@@ -908,7 +908,7 @@ export const mockRecipes: Recipe[] = [
         "Soğuk algınlığı semptomlarını hafifletir",
         "Antiviral özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078046-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/ekinezya.jpg"
 },
 {
     id: 42,
@@ -930,7 +930,7 @@ export const mockRecipes: Recipe[] = [
         "Anksiyeteyi azaltır",
         "Sinirleri yatıştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078045-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/sarı-kantoron.jpg"
 },
 {
     id: 43,
@@ -952,7 +952,7 @@ export const mockRecipes: Recipe[] = [
         "Konsantrasyonu güçlendirir",
         "Zihinsel berraklık sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1589308078044-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kırmızı-ginseng.jpg"
 },
 {
     id: 44,
@@ -975,7 +975,7 @@ export const mockRecipes: Recipe[] = [
         "Stresi azaltır",
         "Sinirleri yatıştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078043-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/lavanta-paptya.jpg"
 },
 {
     id: 45,
@@ -997,7 +997,7 @@ export const mockRecipes: Recipe[] = [
         "İştah açar",
         "Mideyi rahatlatır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078042-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/tarhun.jpg"
 },
 {
     id: 46,
@@ -1019,7 +1019,7 @@ export const mockRecipes: Recipe[] = [
         "İdrar yolu enfeksiyonlarını önler",
         "Antioksidan özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078041-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/yapan-mersini.jpg"
 },
 {
     id: 47,
@@ -1042,7 +1042,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini destekler",
         "Antioksidan etkisi vardır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078040-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kırmızı-biber-limon.jpg"
 },
 {
     id: 48,
@@ -1064,7 +1064,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Bağışıklık sistemini güçlendirir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078039-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/çörek-otu.jpg"
 },
 {
     id: 49,
@@ -1086,7 +1086,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Mideyi rahatlatır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078038-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/rezene-anason.jpg"
 },
 {
     id: 50,
@@ -1109,7 +1109,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini destekler",
         "Enfeksiyonlara karşı korur"
     ],
-    image: "https://images.unsplash.com/photo-1589308078037-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zeytin-yaprağı-kekik.jpg"
 },
 {
     id: 51,
@@ -1131,7 +1131,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Bağışıklık sistemini güçlendirir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078036-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/moringa.jpg"
 },
 {
     id: 52,
@@ -1153,7 +1153,7 @@ export const mockRecipes: Recipe[] = [
         "Stresi azaltır",
         "Sinirleri yatıştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078035-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kediotu.jpg"
 },
 {
     id: 53,
@@ -1175,7 +1175,7 @@ export const mockRecipes: Recipe[] = [
         "Sinüs tıkanıklığını açar",
         "Rahatlatıcı etkisi vardır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078034-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karabaşotu.jpg"
 },
 {
     id: 54,
@@ -1198,7 +1198,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Bağışıklık sistemini güçlendirir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078033-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zerdeçal-karabiber.jpg"
 },
 {
     id: 55,
@@ -1220,7 +1220,7 @@ export const mockRecipes: Recipe[] = [
         "Cilt sağlığını destekler",
         "Antioksidan özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078032-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/aleovera.jpg"
 },
 {
     id: 56,
@@ -1242,7 +1242,7 @@ export const mockRecipes: Recipe[] = [
         "Hormon dengesini destekler",
         "Antioksidan özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078031-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kırmızı-yonca.jpg"
 },
 {
     id: 57,
@@ -1264,7 +1264,7 @@ export const mockRecipes: Recipe[] = [
         "Enerji seviyesini artırır",
         "Antioksidan etkisi vardır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078030-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/keçiboynuzu.jpg"
 },
 {
     id: 58,
@@ -1286,7 +1286,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Enfeksiyonlara karşı korur"
     ],
-    image: "https://images.unsplash.com/photo-1589308078029-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kızılcık.jpg"
 },
 {
     id: 59,
@@ -1309,7 +1309,7 @@ export const mockRecipes: Recipe[] = [
         "Bağışıklık sistemini destekler",
         "Antiseptik özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078028-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/limon-karanfil.jpg"
 },
 {
     id: 60,
@@ -1332,7 +1332,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078027-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zencefil-tarçın.jpg"
 },
 {
     id: 61,
@@ -1355,7 +1355,7 @@ export const mockRecipes: Recipe[] = [
         "Konsantrasyonu artırır",
         "Zihinsel berraklık sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1589308078026-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/biberiye-limon.jpg"
 },
 {
     id: 62,
@@ -1378,7 +1378,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078025-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kekik-zencefil.jpg"
 },
 {
     id: 63,
@@ -1401,7 +1401,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Sinirleri yatıştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078024-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/lavanta-nane.jpg"
 },
 {
     id: 64,
@@ -1424,7 +1424,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Metabolizmayı hızlandırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078023-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/tarçın-elma.jpg"
 },
 {
     id: 65,
@@ -1447,7 +1447,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Nefesi tazeler"
     ],
-    image: "https://images.unsplash.com/photo-1589308078022-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karanfil-tarçın.jpg"
 },
 {
     id: 66,
@@ -1470,7 +1470,7 @@ export const mockRecipes: Recipe[] = [
         "Enfeksiyonlara karşı korur",
         "Antioksidan özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078021-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kuşburnu-hibiskus.jpg"
 },
 {
     id: 67,
@@ -1493,7 +1493,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Metabolizmayı hızlandırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078020-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zerdeçal.jpg"
 },
 {
     id: 68,
@@ -1516,7 +1516,7 @@ export const mockRecipes: Recipe[] = [
         "Boğaz ağrısını azaltır",
         "Antiseptik özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078019-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/kekik-limon.jpg"
 },
 {
     id: 69,
@@ -1539,7 +1539,7 @@ export const mockRecipes: Recipe[] = [
         "Konsantrasyonu artırır",
         "Zihinsel berraklık sağlar"
     ],
-    image: "https://images.unsplash.com/photo-1589308078018-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/biberiye-limon.jpg"
 },
 {
     id: 70,
@@ -1562,7 +1562,7 @@ export const mockRecipes: Recipe[] = [
         "Öksürüğü azaltır",
         "Boğazı yumuşatır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078017-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/ıhlamur-ayvayaprağı.jpg"
 },
 {
     id: 71,
@@ -1584,7 +1584,7 @@ export const mockRecipes: Recipe[] = [
         "Detoks etkisi vardır",
         "Sindirimi kolaylaştırır"
     ],
-    image: "https://images.unsplash.com/photo-1589308078016-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karahindiba-kökü.jpg"
 },
 {
     id: 72,
@@ -1605,7 +1605,7 @@ export const mockRecipes: Recipe[] = [
         "Boğaz ağrısını azaltır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078015-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/meyan-koku.jpg"
 },
 {
     id: 73,
@@ -1628,7 +1628,7 @@ export const mockRecipes: Recipe[] = [
         "Antioksidan etkisi vardır",
         "Nefesi tazeler"
     ],
-    image: "https://images.unsplash.com/photo-1589308078013-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/karanfil-tarçın.jpg"
 },
 {
     id: 74,
@@ -1651,7 +1651,7 @@ export const mockRecipes: Recipe[] = [
         "Sindirimi kolaylaştırır",
         "Anti-enflamatuar özelliklere sahiptir"
     ],
-    image: "https://images.unsplash.com/photo-1589308078012-be1415e0944b?auto=format&fit=crop&q=80"
+    image: "/images/zencefil-nane.jpg"
 },
 
 ];
