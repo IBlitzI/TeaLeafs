@@ -12,18 +12,24 @@ export default function AdBanner({ slot, format = 'auto', className = '' }: AdBa
   const adRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    try {
-      const adsbygoogle = (window as any).adsbygoogle;
-      if (adsbygoogle) {
-        adsbygoogle.push({});
+    const loadAds = () => {
+      try {
+        const adsbygoogle = (window as any).adsbygoogle;
+        if (adsbygoogle) {
+          adsbygoogle.push({});
+        }
+      } catch (err) {
+        console.error('AdSense error:', err);
       }
-    } catch (err) {
-      console.error('AdSense error:', err);
+    };
+
+    if (adRef.current) {
+      loadAds();
     }
   }, []);
 
   return (
-    <div className={className}>
+    <div className={className} ref={adRef}>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
@@ -31,7 +37,6 @@ export default function AdBanner({ slot, format = 'auto', className = '' }: AdBa
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
-        ref={adRef}
       />
     </div>
   );
