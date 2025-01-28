@@ -41,7 +41,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e293b" />
         <link rel="canonical" href="https://dogalsifa.com" />
-        
+
         {/* Schema.org markup for Google */}
         <script
           type="application/ld+json"
@@ -70,14 +70,10 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
-        
+
         {/* Google AdSense Script */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7168907774484971"
+          crossOrigin="anonymous"></script>
       </body>
     </html>
   );
